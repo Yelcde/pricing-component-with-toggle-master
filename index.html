@@ -6,6 +6,7 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
+  <script src="javascript.js"></script>
   
   <title>Frontend Mentor | [Challenge Name Here]</title>
 
@@ -17,46 +18,71 @@
 </head>
 <body>
 
+  <h1>Our Pricing</h1>
+  <header> 
+    <p>Annually</p>
+    <div class="switch__container">
+      <input id="switch-shadow" class="switch switch--shadow" type="checkbox" onclick="active()"/>
+      <label for="switch-shadow"></label>
+    </div>
+    <p>Monthly</p>
+  </header>
+
   <main>
 
-    <div class="container">
-
-      <div class="header">
-        <h1>Our Pricing</h1>
-        Annually
-        Monthly
-      </div>
+    <div class="container1">
       
       <div class="basic">
         <p>Basic</p>
-        &dollar;19.99
-        &dollar;199.99
+        <p class="value"><div class="valueone"><div class="icon">&dollar;</div> <div class="valuetwo">19.99</div></div></p>
+        <p class="value two">&dollar; 199.99</p>
+        <hr width="80%">
         <p>500 GB Storage</p>
+        <hr width="80%">
         <p>2 Users Allowed</p>
+        <hr width="80%">
         <p>Send up to 3 GB</p>
-        <p>Learn More</p>
+        <hr width="80%">
+        <button>
+          <p>Learn More</p>
+        </button>
       </div>
+    </div>
 
+    <div class="container2">
       <div class="professional">
         <p>Professional</p>
-        &dollar;24.99
-        &dollar;249.99
+        <p class="value"> <div class="valueone"> <div class="icon">&dollar;</div> <div class="valuetwo">24.99</div> </div> </p>
+        <p class="value two">&dollar; 249.99</p>
+        <hr width="80%">
         <p>1 TB Storage</p>
+        <hr width="80%">
         <p>5 Users Allowed</p>
+        <hr width="80%">
         <p>Send up to 10 GB</p>
-        <p>Learn More</p>
+        <hr width="80%">
+        <button>
+          <p>Learn More</p>
+        </button>
       </div>
+    </div>
 
+    <div class="container1">
       <div class="master">
         <p>Master</p>
-        &dollar;39.99
-        &dollar;399.99
+        <p class="value"><div class="valueone"><div class="icon">&dollar;</div> <div class="valuetwo">39.99</div></div></p>
+        <p class="value two">&dollar; 399.99</p>
+        <hr width="80%">
         <p>2 TB Storage</p>
+        <hr width="80%">
         <p>10 Users Allowed</p>
+        <hr width="80%">
         <p>Send up to 20 GB</p>
-        <p>Learn More</p>
+        <hr width="80%">
+        <button>
+          <p>Learn More</p>
+        </button>
       </div>
-
     </div>
 
   </main>
